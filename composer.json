@@ -1,0 +1,21 @@
+{
+  "name": "ivanlulyf/bunnyphp-memcached",
+  "description": "MemcachedCache for BunnyPHP",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Lu",
+      "email": "me@ivanlu.cn"
+    }
+  ],
+  "autoload": {
+    "classmap": [
+      "src"
+    ]
+  },
+  "require": {
+    "ivanlulyf/bunnyphp": "^2.3",
+    "ext-memcached": "*"
+  }
+}
