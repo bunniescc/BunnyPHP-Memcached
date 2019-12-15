@@ -29,7 +29,7 @@ class MemcachedCache implements Cache
     public function has($key, $expire = 0)
     {
         $this->memcached->get($key);
-        return $this->memcached->getResultCode() === \Memcached::RES_SUCCESS;
+        return $this->memcached->getResultCode() === Memcached::RES_SUCCESS;
     }
 
     public function set($key, $value, $expire = 0)
